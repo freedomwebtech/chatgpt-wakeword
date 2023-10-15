@@ -9,11 +9,11 @@ import pygame
 
 
 # Set your Porcupine wake word and OpenAI API key
-openai.api_key = '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'
+openai.api_key = 'key'
 
 # Initialize Porcupine for wake word detection
-keyword_path = "hey-jessie_en_windows_v2_2_0.ppn"
-access_key = 'hmyUGQW7+il+DXN40cGMh0ndVTG1EEa3OTuguMrDlOTcMSPmJBISaA=='
+keyword_path = "modelpath"
+access_key = 'key'
 
 # Initialize Porcupine for wake word detection
 handle = pvporcupine.create(access_key=access_key, keyword_paths=[keyword_path])
